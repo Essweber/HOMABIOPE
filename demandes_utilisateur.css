@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
+    padding-right: 5px;
 }
 .logo_block{
     display: flex;
