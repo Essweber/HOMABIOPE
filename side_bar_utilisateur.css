@@ -1,7 +1,6 @@
 
 
 body{
-    max-width: 400px;
     margin: auto;
 }
 
@@ -34,9 +33,9 @@ img{
     .side_bar{
         display: inline-block;
         padding: 10px;
-        height: 80%;
         position: fixed;
-        margin-top: 5px;
+        top: 8%;
+        bottom: 6%;
         background-color: rgba(169, 169, 169, 0.856);
         border: 2px solid black;
         
@@ -102,4 +101,14 @@ img{
     }
     .side_bar_text{
         display: inline-block;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 2%;
+        margin-top: 100px;
     }
