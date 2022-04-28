@@ -1,0 +1,93 @@
+
+
+body{
+    margin: auto;
+    max-width: 500px;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding-right: 5px;
+}
+.logo_block{
+    display: flex;
+    align-items: center;
+}
+.logo_image{
+    width: 35px;
+    }
+img{
+    width: 100%;
+}
+.profil_block{
+    text-align: center;
+}
+.profil_image{
+    margin: auto;
+    width: 38px;
+    }
+  
+
+    main{
+        margin: 0px 5px;
+    }
+    .main_container{
+        border: 2px solid black;
+        margin-top: 5px;
+    }
+    .menus_bar{
+        display: flex;
+        margin-top: 5px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+  
+    .histirique_icon{
+        width: 70px;
+        margin: auto;
+    }
+    .historique_title{
+        text-align: center;
+    }
+    .historique_container{
+        border-left: 3px solid black;
+        position: relative;
+        width: 60%;
+        margin: auto;
+        padding: 10px 0px 0px 10px;
+    }
+    .historique_container::before{
+        content: "";
+        top: 0px;
+        width: 33px;
+        left: -15px;
+        position: absolute;
+        border-bottom: 3px solid black;
+    }
+    .historique_row{
+        margin: 20px 0px 0px 15px;
+        padding-top: 8px;
+        position: relative;
+    }
+    .historique_row::before{
+        content: "01 Jan 2022";
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        width: 35px;
+        top: 0px;
+        left: -46px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50%;
+        border: 2px solid black;
+
+        
+    }
+    .historique_container{
+        padding-bottom: 50px;
+    }
