@@ -1,7 +1,14 @@
 
 
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
 body{
     margin: auto;
+    max-width: 450px;
 }
 
 .header_container{
@@ -10,6 +17,7 @@ body{
     border: 2px solid black;
     padding-right: 5px;
 }
+
 .logo_block{
     display: flex;
     align-items: center;
@@ -112,3 +120,12 @@ img{
         bottom: 2%;
         margin-top: 100px;
     }
+
+
+
+/* RESPONSIVE PART */
+
+
+
+
+

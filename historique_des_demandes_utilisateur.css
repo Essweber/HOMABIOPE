@@ -2,6 +2,7 @@
 
 body{
     margin: auto;
+    max-width: 500px;
 }
 
 .header_container{
